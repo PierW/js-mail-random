@@ -11,7 +11,7 @@ for (var i = 0; i < database.length; i++) {
   }
 }
 
-if (check == true) {
+if (check) { //Non c'è bisogno di mettere "check == true" perchè già è un valore booleano vero
   alert("Accesso consentito");
 }
 else {
